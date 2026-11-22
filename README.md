@@ -36,9 +36,8 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-4. Descargar el archivo Parquet de Meteostat en data/clima.parquet (o ejecutar desde Google Colab clonando el repo y descargando el archivo en la sesión)
+4. Ejecutar el *script* de análisis (consulta directamente el archivo Parquet remoto de Meteostat desde DuckDB, sin descarga local previa):
 
-5. Ejecutar el script de análisis:
 ```
 python analyze_clima.py
 ```
