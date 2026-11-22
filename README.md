@@ -53,7 +53,6 @@ En la exploración inicial sobre las 4.683.243 filas se detectaron 34.199 valore
 
 - Promedios mensuales: Agrupación por mes (DATE_TRUNC('month', date)::DATE) calculando cantidad de registros y promedios de temp, tmin y tmax.
 - Estaciones con mayor temperatura máxima registrada: Agrupación por station (GROUP BY station) calculando MAX(tmax), AVG(temp) y COUNT(*) para identificar los valores máximos y su contexto promedio.
-- Cobertura / conteo por estación: Conteo de días válidos y rangos de fechas por estación para evaluar la disponibilidad de datos.
 
 ## Tiempos de ejecución y hallazgos principales
 *Tiempos de ejecución (Google Colab con DuckDB en memoria)*
