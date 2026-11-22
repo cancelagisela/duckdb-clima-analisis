@@ -10,13 +10,11 @@ Proyecto de análisis exploratorio y estadístico sobre datos meteorológicos di
 ## Estructura del proyecto
 
 ```text
-proyecto-duckdb-clima/
-├── data/
-│   └── clima.parquet     # Dataset descargado localmente
-├── .gitignore            # Exclusión de archivos de datos, temporales y binarios de BD
-├── requirements.txt      # Dependencias del proyecto
-├── analyze_clima.py      # Script de limpieza y consultas analíticas con DuckDB
-└── README.md             # Documentación, tiempos y hallazgos del análisis
+duckdb-clima-analisis/
+├── .gitignore          # Exclusión de archivos de datos, temporales y binarios de BD
+├── requirements.txt    # Dependencias del proyecto
+├── analyze_clima.py    # Script de limpieza y consultas analíticas con DuckDB
+└── README.md           # Documentación, tiempos y hallazgos del análisis
 ```
 
 ## Cómo replicar el análisis
